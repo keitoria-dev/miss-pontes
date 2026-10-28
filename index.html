@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Miss Pontes | Vestidos de festa</title>
+  <meta name="description" content="Vestidos de festa em tule, cetim e brilho, em várias cores. Escolha o seu e fale com a Miss Pontes pelo WhatsApp.">
+  <link rel="icon" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="fundo-parallax" id="fundoParallax"></div>
+
+  <header class="topo" id="topo">
+    <a class="marca" href="#inicio" aria-label="Miss Pontes, início">
+      <img src="img/logo.png" alt="Logo Miss Pontes">
+      <span>Miss Pontes</span>
+    </a>
+    <nav class="menu" id="menu">
+      <a href="#cores">Escolha por cor</a>
+      <a href="#historia">Nossa história</a>
+      <a href="#contato">Contato</a>
+      <a class="menu-botao" href="#" data-whatsapp="Olá! Vim pelo site da Miss Pontes e gostaria de atendimento.">WhatsApp</a>
+    </nav>
+    <button class="hamburguer" id="hamburguer" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-texto">
+        <p class="lema">Sonhar, planejar e realizar</p>
+        <h1>Seu vestido de festa, escolhido com carinho</h1>
+        <p class="hero-descricao">Modelos em tule, cetim e brilho, em várias cores, para formaturas, casamentos, debutantes e convidadas.</p>
+        <div class="hero-acoes">
+          <a class="botao botao-escuro" href="#cores">Ver os vestidos</a>
+          <a class="botao botao-contorno" href="#" data-whatsapp="Olá! Quero ajuda para escolher meu vestido.">Falar no WhatsApp</a>
+        </div>
+        <ul class="hero-pontos">
+          <li>Vários modelos e cores</li>
+          <li>Atendimento pelo WhatsApp</li>
+          <li>Ajuda para escolher</li>
+        </ul>
+      </div>
+      <div class="hero-visual">
+        <div class="arco" data-velocidade="0.04">
+          <img src="img/rosa-renda.jpg" alt="Vestido princesa rosa com renda floral">
+        </div>
+        <div class="circulo" data-velocidade="-0.05">
+          <img src="img/amarelo-babados.jpg" alt="Cliente usando vestido amarelo com babados">
+        </div>
+      </div>
+    </section>
+
+    <section class="seletor" id="cores">
+      <h2>Escolha pela cor</h2>
+      <p>Toque em uma cor e veja os modelos.</p>
+      <div class="bolinhas" id="bolinhas"></div>
+    </section>
+
+    <div id="colecoes"></div>
+
+    <section class="historia" id="historia">
+      <div class="historia-foto">
+        <img src="img/amarelo-cetim.jpg" alt="Cliente usando vestido amarelo de cetim" loading="lazy">
+      </div>
+      <div class="historia-painel">
+        <h2>Nossa história</h2>
+        <p>Copy falando sobre a história da loja. Aqui entra o texto sobre como a Miss Pontes começou, o que ela acredita e o cuidado no atendimento a cada cliente.</p>
+        <ul class="passos">
+          <li>
+            <h3>Sonhar</h3>
+            <p>Você escolhe o estilo e a cor que combinam com você.</p>
+          </li>
+          <li>
+            <h3>Planejar</h3>
+            <p>A gente ajuda com modelo, medidas e prazos.</p>
+          </li>
+          <li>
+            <h3>Realizar</h3>
+            <p>Você chega na sua festa com o vestido certo.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contato" id="contato">
+      <div class="contato-caixa">
+        <img class="contato-logo" src="img/logo.png" alt="Logo Miss Pontes" loading="lazy">
+        <h2>Vamos escolher o seu?</h2>
+        <p>Conte a data e o tipo de evento. A gente responde com os modelos que combinam com você.</p>
+        <a class="botao botao-escuro" href="#" data-whatsapp="Olá! Quero escolher meu vestido. Meu evento é em:">Chamar no WhatsApp</a>
+        <a class="contato-instagram" href="https://www.instagram.com/misspontesloja" target="_blank" rel="noopener">Ver o Instagram @misspontesloja</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Miss Pontes. Sonhar, planejar e realizar.</p>
+    <p>© 2026 Todos os direitos reservados.</p>
+  </footer>
+
+  <a class="whatsapp-flutuante" href="#" data-whatsapp="Olá! Vim pelo site da Miss Pontes." aria-label="Falar no WhatsApp"></a>
+
+  <script src="script.js"></script>
+</body>
+</html>
